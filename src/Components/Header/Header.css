@@ -1,28 +1,24 @@
+
 .navbar{
     background: #222;
     color: #fff;
-    padding: 1rem;
+    height: 75px;
+    padding: 0 6%;
     position: fixed;
     width: 100%;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.navContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navContainer h1{
+.logo{
     font-size: 2rem;
     cursor: pointer;
 }
-.navContainer nav{
+.nav-links{
     display: flex;
     gap: 2.5rem;
 }
-.navContainer button{
+button{
     position: relative;
     font-size: 1rem;
     cursor: pointer;
@@ -30,7 +26,7 @@
     background: none;
     border: none;
 }
-.navContainer button:not(.active)::before{
+button:not(.active)::before{
     content: '';
     position: absolute;
     background: #eaeaea;
@@ -42,10 +38,10 @@
     transition: transform 0.25s ease;
     transform-origin: 0 100%;
 }
-.navContainer button:not(.active):hover::before{
+button:not(.active):hover::before{
     transform: scale(1,1);
 }
-.navContainer button.active::before{
+button.active::before{
     content: '';
     position: absolute;
     width: 100%;
@@ -53,4 +49,132 @@
     background: #eaeaea;
     bottom: -5px;
     left: 0;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.nav-btn{
+    display: none;
+}
+/* @media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    button{
+        position: relative;
+        font-size: 1rem;
+        cursor: pointer;
+        color: #000000;
+        background: none;
+        border: none;
+    }
+    .nav-links{
+        position: fixed;
+        width: 100%;
+        padding: 20px 10px;
+        color: #0082e6;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        justify-content: space-around;
+    }
+    button:not(.active)::before{
+        content: '';
+        position: absolute;
+        background: #059ef0;
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: -5px;
+        transform: scale(0,1);
+        transition: transform 0.25s ease;
+        transform-origin: 0 100%;
+    }
+    button:not(.active):hover::before{
+        transform: scale(1,1);
+    }
+    button.active::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #120264;
+        bottom: -5px;
+        left: 0;
+    }
+    .nav-links:Hover,.nav-links.activ{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ .nav-links{
+        left: 0;
+        text-emphasis: none;
+    }
+} */
+
+@media (max-width: 858px){
+    .navbar{
+        height: var(--header-height);
+        color: black;
+        background: none;
+        flex-direction: row-reverse;
+       
+    }
+    .nav-btn{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        background: #312b2b;
+        padding: 20px;
+        box-sizing: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        transition: .5s;
+    }
+
+    .show-menu{
+        bottom: 0;
+    }
+
+    .nav-close-btn{
+        position: absolute;
+        top: .5rem;
+        right: 1.3rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #eaeaea;
+    }
+    .nav-close-btn:hover{
+        color: var(--titile-color-dark); 
+    }
+    .nav-toggle{
+        font-size: 1.1rem;
+        color: black;
+        cursor: pointer;
+    }
+}
+@media (max-width: 350px){
+    .nav-links{
+        padding: 2rem 0.25rem 4rem;
+    }
 }
