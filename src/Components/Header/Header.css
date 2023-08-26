@@ -126,7 +126,7 @@ button.active::before{
     }
 } */
 
-@media (max-width: 858px){
+@media screen and (max-width: 858px){
     .navbar{
         height: var(--header-height);
         color: black;

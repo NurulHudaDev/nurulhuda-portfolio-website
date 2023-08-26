@@ -7,7 +7,7 @@ const Header = () => {
 
   const { activeLinkId } = useContext(NavContext);
 
-  const navLinks = ['Home', 'About', 'Projects', 'Contact'];
+  const navLinks = ['Home', 'About', 'Services', 'Projects', 'Contact'];
 
   const handleClickLogo = () => {
     document.getElementById("homeSection").scrollIntoView({ behavior: "smooth" })

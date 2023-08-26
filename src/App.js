@@ -4,6 +4,7 @@ import Contact from './Components/Contact/Contact';
 import NavProvider from './Components/Contex/NavContext';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import Services from './Components/Services/Services';
 import Projects from './Components/Projects/Projects';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Home />
         <About />
+        <Services />
         <Projects />
         <Contact />
       </NavProvider>

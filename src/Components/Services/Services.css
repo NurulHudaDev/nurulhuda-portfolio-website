@@ -1,0 +1,42 @@
+.services{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+.services h2{
+    font-size: 35px;
+}
+.services p{
+    color: #777;
+    padding: 10px;
+    line-height: 22px;
+}
+.row{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 30%;
+    background: #fff3f3;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.course-col h3{
+    text-align: center;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
