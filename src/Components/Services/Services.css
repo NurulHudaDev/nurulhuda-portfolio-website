@@ -21,14 +21,22 @@
 }
 .course-col{
     flex-basis: 30%;
-    background: #fff3f3;
+    background: gainsboro;
     padding: 20px 15px;
     border-radius: 10px;
     margin-bottom: 80px;
     box-sizing: border-box;
     transition: .5s;
 }
-.course-col h3{
+.icon-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    font-size: 60px;
+}
+.course-col h2{
     text-align: center;
     margin: 10px 0;
 }
