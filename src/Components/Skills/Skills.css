@@ -1,0 +1,99 @@
+.experience_info {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.progress_line {
+    margin-top: 7px;
+    height: 10px;
+    width: 100%;
+    background-color: #cdcdcd;
+    border-radius: 50px;
+    position: relative;
+    z-index: -1;
+}
+
+.progress_line span {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #fd6e0a;
+    transition: 1s all;
+}
+
+.progress_line span.animate {
+    -webkit-animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+    animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@-webkit-keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@-webkit-keyframes animate {
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+@keyframes animate {
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+.skills88888888888{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-col22{
+    width: 20%;
+}
+.skills_title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.model_btn{
+    cursor: pointer;
+}
+@media screen and (max-width: 858px){
+    .skills1{
+        height: auto;
+        margin-top: 900px;
+    }
+    .skills88888888888{
+        display: block;
+    }
+    .course-col22{
+        width: 100%;
+    }
+    .skills_title{
+        margin-top: 30px;
+    }
+}
