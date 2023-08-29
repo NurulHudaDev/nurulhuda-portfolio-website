@@ -1,0 +1,21 @@
+.row_summary{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    text-align: center;
+    
+}
+.counter{
+    font-size: 40px;
+    font-weight: 800;  
+}
+.summary_counter{
+    font-size: 20px;
+    font-weight: 700;
+}
+@media screen and (max-width: 858px){
+    .row_summary{
+        flex-direction: column; 
+        margin-top: 200px;
+    }
+}

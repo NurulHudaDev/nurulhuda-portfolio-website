@@ -75,7 +75,7 @@ const Skills = () => {
 
           </div>
         </div>
-        
+
       </div>
     )
 
@@ -151,7 +151,7 @@ const Skills = () => {
 
           </div>
         </div>
-       
+
       </div>
     )
 
@@ -225,7 +225,7 @@ const Skills = () => {
 
           </div>
         </div>
-       
+
       </div>
     )
 
@@ -239,24 +239,30 @@ const Skills = () => {
         <div class="course-col22">
           <div className='skills_title'>
             <h2 className='skills_progress22'>Front-End Development</h2>
-            <a className='model_btn' onClick={() => setShowModel1(true)}><FaAngleDown /></a>
-            <a className='model_btn' onClick={() => setShowModel1(false)}><FaAngleUp /></a>
+            <div className='progress_btn'>
+              <a className='model_btn' onClick={() => setShowModel1(true)}><FaAngleDown /></a>
+              <a className='model_btn' onClick={() => setShowModel1(false)}><FaAngleUp /></a>
+            </div>
           </div>
           {showModel1 && <Progress1 />}
         </div>
         <div class="course-col22">
           <div className='skills_title'>
-          <h2 className='skills_progress22'>Back-End Development</h2>
-          <a className='model_btn' onClick={() => setShowModel2(true)}><FaAngleDown /></a>
-          <a className='model_btn' onClick={() => setShowModel2(false)}><FaAngleUp /></a>
+            <h2 className='skills_progress22'>Back-End Development</h2>
+            <div className='progress_btn'>
+              <a className='model_btn' onClick={() => setShowModel2(true)}><FaAngleDown /></a>
+              <a className='model_btn' onClick={() => setShowModel2(false)}><FaAngleUp /></a>
+            </div>
           </div>
           {showModel2 && <Progress2 />}
         </div>
         <div class="course-col22">
           <div className='skills_title'>
-          <h2 className='skills_progress22'>Graphics Design</h2>
-          <a className='model_btn' onClick={() => setShowModel3(true)}><FaAngleDown /></a>
-          <a className='model_btn' onClick={() => setShowModel3(false)}><FaAngleUp /></a>
+            <h2 className='skills_progress22'>Graphics Design</h2>
+            <div className='progress_btn'>
+              <a className='model_btn' onClick={() => setShowModel3(true)}><FaAngleDown /></a>
+              <a className='model_btn' onClick={() => setShowModel3(false)}><FaAngleUp /></a>
+            </div>
           </div>
           {showModel3 && <Progress3 />}
         </div>

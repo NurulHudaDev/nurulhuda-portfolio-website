@@ -79,6 +79,10 @@
     font-size: 16px;
     font-weight: 800;
 }
+.progress_btn{
+    display: flex;
+    align-items: center;
+}
 .model_btn{
     cursor: pointer;
 }
@@ -95,5 +99,7 @@
     }
     .skills_title{
         margin-top: 30px;
+        align-items: center;
+        justify-content: space-between;
     }
 }
