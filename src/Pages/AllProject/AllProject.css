@@ -1,0 +1,179 @@
+.all_project{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all_project h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.all_project_row{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.all_project_col_1{
+    width: 30%;
+    background-image: url(../../images/laptop_parts.png);
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	background-position: left top;
+	transition: .5s;
+	float: left;
+	border: 2px solid red;
+	margin: 10px;
+}
+.all_project_col_2{
+    width: 30%;
+    background-image: url(../../images/doctors_portal.png);
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	background-position: left top;
+	transition: .5s;
+	float: left;
+	border: 2px solid red;
+	margin: 10px;
+}
+.all_project_col_3{
+    width: 30%;
+    background-image: url(../../images/photographer.png);
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	background-position: left top;
+	transition: .5s;
+	float: left;
+	border: 2px solid red;
+	margin: 10px;
+}
+.all_project_col_4{
+    width: 30%;
+    background-image: url(../../images/laptop_sellers.png);
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	background-position: left top;
+	transition: .5s;
+	float: left;
+	border: 2px solid red;
+	margin: 10px;
+}
+.web_design_col_1{
+    width: 30%;
+    background-image: url(../../images/web_design_template1.jpg);
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	background-position: left top;
+	transition: .5s;
+	float: left;
+	border: 2px solid red;
+	margin: 10px;
+}
+.web_design_col_2{
+    width: 30%;
+    background-image: url(../../images/web_design_template2.jpg);
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	background-position: left top;
+	transition: .5s;
+	float: left;
+	border: 2px solid red;
+	margin: 10px;
+}
+.all_project_col_1:hover{
+    background-position: left bottom;
+}
+.all_project_col_2:hover{
+    background-position: left bottom;
+}
+.all_project_col_3:hover{
+    background-position: left bottom;
+}
+.all_project_col_4:hover{
+    background-position: left bottom;
+}
+.web_design_col_1:hover{
+    background-position: left bottom;
+}
+.web_design_col_2:hover{
+    background-position: left bottom;
+}
+.all_project_col_1 img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.all_project_col_2 img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.all_project_col_3 img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.all_project_col_4 img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.web_design_col_1 img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.web_design_col_2 img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.ws_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 89%;
+}
+.ws_btn a{
+    background:rgba(0, 2, 8, 0.6);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+@media(max-width: 700px){
+    .all_project_row{
+        flex-direction: column;
+    }
+    .all_project_col_1{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .all_project_col_2{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .all_project_col_3{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .all_project_col_4{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .web_design_col_1{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .web_design_col_2{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
