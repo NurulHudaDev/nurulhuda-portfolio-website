@@ -1,17 +1,44 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Contact.css';
 import { useNav } from '../Hooks/useNav';
+import Laptop from '../../images/laptop.jpg';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
   const contactRef = useNav('Contact')
 
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_8i803bg', 'template_kpbdtjn', form.current, 'qFhdLIbnek-uWWXc5')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+
   return (
-    <section ref={contactRef} id='contactSection'>
-        <h1>Contact</h1>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        </p>
+    <section className='contact' ref={contactRef} id='contactSection'>
+      <h1>Contact</h1>
+      <div class="contact_row">
+        <div class="contact_col">
+          <img src={Laptop} alt='' />
+        </div>
+        <div class="contact_col">
+        <form  className='from' ref={form} onSubmit={sendEmail}>
+          <h2>Contact</h2>
+          <input type='text' name='user_name' id='' placeholder='Enter Name' />
+          <input type='text' name='user_email' id='' placeholder='Enter Email' />
+          <textarea name='message' id='' cols='30' rows='10' placeholder='Type Here...' />
+          <button type='submit'>Send</button>
+        </form>
+        </div>
+      </div>
     </section>
   );
 };

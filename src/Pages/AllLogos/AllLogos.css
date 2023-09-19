@@ -1,12 +1,43 @@
 .all_logos{
-    margin-top: 400px;
+    margin-top: 150px;
 }
-.all_logos h2{
+.all_logos_titel{
+    margin-top: 20px;
     text-align: center;
     font-size: 20px;
     font-weight: 600;
 }
 .all_logos_col{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+@media(max-width: 1200px){
+    .all_logos{
+        margin-top: 440px;
+    }
+    .all_logos_col{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    .all_logos{
+        margin-top: 1900px;
+    }
+    .all_logos_col{
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
 }

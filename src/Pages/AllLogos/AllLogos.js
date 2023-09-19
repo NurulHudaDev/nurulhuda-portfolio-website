@@ -17,7 +17,7 @@ const AllLogos = (props) => {
     return (
         <section>
             <div className="all_logos">
-            <h2>Logos</h2>
+            <h2 className="all_logos_titel">Logos</h2>
                 <div className="all_logos_col">
                 {
                     logo.map((pd) => (

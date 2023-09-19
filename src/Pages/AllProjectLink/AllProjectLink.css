@@ -1,22 +1,32 @@
-.header{
+.all_projects_link{
+    width: 80%;
     height: 40px;
     background-color: #27333c;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+    gap: 20px;
 }
 
-.header a{
+.all_projects_link a{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 36px;
+    margin: auto;
+   
 }
-.header a:hover{
+.all_projects_link a:hover{
     color: orange;
 }
 .logo{
     color: #FFFFFF;
+}
+@media(max-width: 700px){
+    .all_projects_link{
+        width: 100%;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .all_projects_link a{
+        font-size: 10px;
+    }
 }

@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    text-align: center;
+    background: rgb(2, 2, 97);
+    padding: 100px 0;
+}
+.social_link a{
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer h2{
+    color: #fff;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+@media(max-width: 700px){
+    .footer{
+       margin-top: 200px;
+    }
+    .social_link a{
+        width: 100%;
+        margin-left: 10px;
+    }
+}

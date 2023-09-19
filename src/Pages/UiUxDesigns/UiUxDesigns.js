@@ -7,21 +7,23 @@ import ostliya from '../../images/ostliya.jpg';
 const UiUxDesigns = () => {
 
     return (
-        <section class="web_design_projects">
-            <h2>UI UX Designs</h2>
-            <div className='web_design_row'>
-                <div class="web_design_col_1">
-                    <div className='ws_btn'>
-                        <a>Live Preview</a>
+        <div className='all_web_designs'>
+            <h2 className='all_web_designs_titel'>UI/UX Designs</h2>
+            <div className='container'>
+                <div className='box box5'>
+                    <div className='ws_btn22'>
+                        <a href='https://assurement-12.web.app' alt=''>Live Demo</a>
+                        <a>GitHub</a>
                     </div>
                 </div>
-                <div class="web_design_col_2">
-                    <div className='ws_btn'>
-                        <a>Live Preview</a>
+                <div className='box box6'>
+                    <div className='ws_btn22'>
+                        <a href='https://assurement-12.web.app' alt=''>Live Demo</a>
+                        <a>GitHub</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

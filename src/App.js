@@ -8,6 +8,7 @@ import Services from './Components/Services/Services';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Summary from './Components/Summary/Summary';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Projects />
         <Contact />
       </NavProvider>
+      <Footer />
     </div>
   );
 }
