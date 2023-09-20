@@ -1,10 +1,26 @@
 import React, { useContext, useState } from 'react';
 import './Header.css';
 import { NavContext } from '../Contex/NavContext';
-import { FaBars, FaThLarge, FaTimes } from "react-icons/fa"
+import { FaThLarge, FaTimes } from "react-icons/fa"
 import my_logo_1 from '../../images/my_logo_1.png';
 
 const Header = () => {
+
+  const [color, setColor] = useState(false)
+
+  const changeColour = () => {
+    if (window.scrollY >= 90) {
+      setColor(true);
+    }
+    else {
+      setColor(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeColour);
+
+
+
 
   const { activeLinkId } = useContext(NavContext);
 
@@ -31,7 +47,7 @@ const Header = () => {
   const [Toggle, showMenu] = useState(false);
 
   return (
-    <nav className='navbar'>
+    <nav className={color ? 'navbar navbar_bg' : 'navbar'}>
       <button className='nav-btn nav-toggle' onClick={() => showMenu (!Toggle)}>
         <FaThLarge />
       </button>

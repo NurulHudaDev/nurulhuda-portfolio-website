@@ -1,7 +1,5 @@
 
 .navbar{
-    background: #FFF;
-    box-shadow: rgba(17, 17, 26, 0.2) 0px 1px 0px;
     color: #000;
     height: 75px;
     padding: 0 6%;
@@ -10,6 +8,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.navbar_bg{
+    background: #011935;
+    transition: .8s;
 }
 .logo{
     width: 40px;
@@ -23,10 +25,11 @@ button{
     position: relative;
     font-size: 1rem;
     cursor: pointer;
-    color: #000;
+    color: #fff;
     background: none;
     border: none;
 }
+
 button:not(.active)::before{
     content: '';
     position: absolute;
