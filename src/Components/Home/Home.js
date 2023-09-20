@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import { useNav } from '../Hooks/useNav';
 import BannerImage from '../../images/banner_image1.png'
+import BannerImage2 from '../../images/banner_image2.png'
 import { Button } from 'react-scroll';
 import { FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
@@ -10,7 +11,8 @@ const Home = () => {
   const homeRef = useNav("Home")
 
   return (
-    <section ref={homeRef} id='homeSection' className='banner'>
+    <div ref={homeRef} id='homeSection' className='banner'>
+      <div className='banner_overlay'>
       <div className='top_banner'>
         <div className='banner_left_site'>
           <h1 className='name'>I'M NURUL HUDA</h1>
@@ -29,10 +31,11 @@ const Home = () => {
           </div>
         </div>
         <div className='banner_right_site'>
-          <img className='banner_image' src={BannerImage} alt="" srcset="" />
+          <img className='banner_image' src={BannerImage2} alt="" srcset="" />
         </div>
       </div>
-    </section>
+      </div>
+    </div>
   );
 };
 

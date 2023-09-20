@@ -8,7 +8,7 @@ const Services = () => {
   const servicesRef = useNav('Services')
 
   return (
-    <section ref={servicesRef} id='servicesSection' className='services'>
+    <div ref={servicesRef} id='servicesSection' className='services'>
       <h1>Services</h1>
       <div class="row">
         <div class="course-col">
@@ -42,7 +42,7 @@ const Services = () => {
             nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

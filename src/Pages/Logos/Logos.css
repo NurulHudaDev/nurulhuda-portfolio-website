@@ -14,18 +14,18 @@
     margin: auto;
 }
 .modal{
-    background: gold;
+    background: rgb(255, 196, 0);
     padding: 5px;
     margin-top: 10px;
 }
 .modal_btn{
     width: 100%;
-    color: black;
+    color: #fff;
     margin-left: 120px;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     margin-left: 80px;
 }
 .modal_btn:hover{
-    font-size: 30px;
+    font-size: 25px;
 }

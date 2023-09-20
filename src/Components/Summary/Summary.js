@@ -2,14 +2,13 @@ import React from 'react';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import './Summary.css'
+import { Col, Row } from 'react-bootstrap';
 const Summary = () => {
     return (
-        <section className='summary-banner'>
-            <div className='summary-banner-overlay'>
-                <div className='container_summary'>
-                    <div className='row_summary'>
-                        <div>
-                            <div>
+        <div className='summary-banner'>
+            <div className='banner_overlay'>
+                <Row className='row_summary'>
+                            <Col className='col_summary'>
                                 <h2 className='counter'>
                                     <CountUp start={0} end={28}>
                                         {({ countUpRef, start }) => (
@@ -23,10 +22,8 @@ const Summary = () => {
                                     <h4>Web Development projects</h4>
                                     <hr className='bg-white mt-4' />
                                 </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
+                            </Col>
+                            <Col className='col_summary'>
                                 <h2 className='counter'>
                                     <CountUp start={0} end={2}>
                                         {({ countUpRef, start }) => (
@@ -40,10 +37,8 @@ const Summary = () => {
                                 <h4>UI/UX Designs</h4>
                                 <hr className='bg-white mt-4' />
                                 </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
+                            </Col>
+                            <Col className='col_summary'>
                                 <h2 className='counter'>
                                     <CountUp start={0} end={205}>
                                         {({ countUpRef, start }) => (
@@ -57,12 +52,10 @@ const Summary = () => {
                                 <h4>Logo Design</h4>
                                 <hr className='bg-white mt-4' />
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                            </Col>
+                </Row>
             </div>
-        </section >
+        </div >
     );
 };
 

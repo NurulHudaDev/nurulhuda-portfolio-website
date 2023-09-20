@@ -233,7 +233,7 @@ const Skills = () => {
   }
 
   return (
-    <section ref={skillsRef} id='skillsSection' className='skills1'>
+    <div ref={skillsRef} id='skillsSection' className='skills1'>
       <h1>Skills</h1>
       <div className='skills88888888888'>
         <div class="course-col22">
@@ -267,7 +267,7 @@ const Skills = () => {
           {showModel3 && <Progress3 />}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

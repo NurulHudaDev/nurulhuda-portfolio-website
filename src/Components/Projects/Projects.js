@@ -12,7 +12,7 @@ const Projects = () => {
   const projectsRef = useNav('Projects')
 
   return (
-    <section className='projects' ref={projectsRef} id='projectsSection'>
+    <div className='projects' ref={projectsRef} id='projectsSection'>
       <h1>Projects</h1>
       <AllProjectLink></AllProjectLink>
     <Routes>
@@ -21,7 +21,7 @@ const Projects = () => {
         <Route path='/ui_ux_designs' element={<UiUxDesigns />}></Route>
         <Route path='/logo_designs' element={<AllLogos />}></Route>
       </Routes>
-    </section>
+    </div>
   );
 };
 
