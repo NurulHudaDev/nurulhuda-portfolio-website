@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Skills.css';
 import { useNav } from '../Hooks/useNav';
-import { FaAngleDown, FaAngleUp, FaCode, FaPager, FaPenNib } from "react-icons/fa6";
+import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
 
 const Skills = () => {
 

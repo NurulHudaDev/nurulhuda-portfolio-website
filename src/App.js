@@ -9,13 +9,24 @@ import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Summary from './Components/Summary/Summary';
 import Footer from './Components/Footer/Footer';
+import { createContext, useState } from 'react';
+
+export const themeContext = createContext(null);
 
 function App() {
 
+  const [theme, setTheme] = useState('light');
+
+  const toggleTheme = () =>{
+    setTheme((curr) => (curr == 'dark' ? 'light' : 'dark'));
+  };
+
   return (
     <div>
+      <themeContext.Provider value = {{theme, toggleTheme}}>
+        <div id={theme}>
       <NavProvider>
-        <Header />
+        <Header toggleTheme={toggleTheme} />
         <Home />
         <About />
         <Services />
@@ -25,6 +36,8 @@ function App() {
         <Contact />
       </NavProvider>
       <Footer />
+      </div>
+      </themeContext.Provider>
     </div>
   );
 }

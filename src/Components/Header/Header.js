@@ -2,9 +2,11 @@ import React, { useContext, useState } from 'react';
 import './Header.css';
 import { NavContext } from '../Contex/NavContext';
 import { FaThLarge, FaTimes } from "react-icons/fa"
-import my_logo_1 from '../../images/my_logo_1.png';
+import my_logo_2 from '../../images/my_logo_2.png';
 
-const Header = () => {
+const Header = (props) => {
+
+  const { toggleTheme } = props;
 
   const [color, setColor] = useState(false)
 
@@ -46,19 +48,26 @@ const Header = () => {
 
   const [Toggle, showMenu] = useState(false);
 
+
   return (
     <nav className={color ? 'navbar navbar_bg' : 'navbar'}>
-      <button className='nav-btn nav-toggle' onClick={() => showMenu (!Toggle)}>
+      <button className='nav-btn nav-toggle' onClick={() => showMenu(!Toggle)}>
         <FaThLarge />
       </button>
-      <img className='logo' onClick={handleClickLogo} src={my_logo_1} alt='' />
+      <img className='logo' onClick={handleClickLogo} src={my_logo_2} alt='' />
       <div className={Toggle ? 'nav-links show-menu' : 'nav-links'}>
         {navLinks.map(nav => renderNavLink(nav))}
-        <button className='nav-btn nav-close-btn' onClick={() => showMenu (!Toggle)}>
-        <FaTimes />
-      </button>
+        <button className='nav-btn nav-close-btn' onClick={() => showMenu(!Toggle)}>
+          <FaTimes />
+        </button>
+        <div>
+          <input className='darkmode-toggle_input' onChange={toggleTheme} type="checkbox" id="darkmode-toggle" />
+          <label className='label-1' for="darkmode-toggle"></label>
+        </div>
       </div>
-      
+
+
+
     </nav>
   );
 };

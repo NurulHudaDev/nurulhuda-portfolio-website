@@ -15,7 +15,6 @@
     background-color: #cdcdcd;
     border-radius: 50px;
     position: relative;
-    z-index: -1;
 }
 
 .progress_line span {

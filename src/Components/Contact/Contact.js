@@ -31,7 +31,7 @@ const Contact = () => {
         </div>
         <div class="contact_col2">
         <form  className='from' ref={form} onSubmit={sendEmail}>
-          <h2>Contact</h2>
+          <h2>Contact Us</h2>
           <input type='text' name='user_name' id='' placeholder='Enter Name' />
           <input type='text' name='user_email' id='' placeholder='Enter Email' />
           <textarea name='message' id='' cols='30' rows='10' placeholder='Type Here...' />
