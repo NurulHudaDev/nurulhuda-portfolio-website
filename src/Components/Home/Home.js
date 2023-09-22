@@ -14,7 +14,7 @@ const Home = () => {
     <div ref={homeRef} id='homeSection' className='banner'>
       <div className='banner_overlay'>
       <div className='top_banner'>
-        <div className='banner_left_site'>
+        <div data-aos="zoom-out-right" className='banner_left_site'>
           <h1 className='name'>I'M NURUL HUDA</h1>
           <h2 className='title'>Front-end web developer</h2>
           <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -31,7 +31,7 @@ const Home = () => {
           </div>
         </div>
         <div className='banner_right_site'>
-          <img className='banner_image' src={BannerImage2} alt="" srcset="" />
+          <img data-aos="zoom-out-left" className='banner_image' src={BannerImage2} alt="" srcset="" />
         </div>
       </div>
       </div>

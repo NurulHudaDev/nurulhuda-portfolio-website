@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
 .App {
   text-align: center;
 }
@@ -42,6 +45,6 @@
   color: #000;
 }
 #dark{
-  background: #222;
+  background: #15202B;
   color: #fff;
 }

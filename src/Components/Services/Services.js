@@ -11,7 +11,7 @@ const Services = () => {
     <div ref={servicesRef} id='servicesSection' className='services'>
       <h1>Services</h1>
       <div class="row">
-        <div class="course-col">
+        <div data-aos="fade-up" class="course-col">
           <div className='icon-title'>
           <div className='icon'><FaCode /></div>
           <h2>Web Development</h2>
@@ -21,7 +21,7 @@ const Services = () => {
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat.</p>
         </div>
-        <div class="course-col">
+        <div data-aos="fade-up" class="course-col">
         <div className='icon-title'>
           <div className='icon'><FaPager /></div>
           <h2>UI/UX Design</h2>
@@ -31,7 +31,7 @@ const Services = () => {
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat.</p>
         </div>
-        <div class="course-col">
+        <div data-aos="fade-up" class="course-col">
         <div className='icon-title'>
           <div className='icon'><FaPenNib /></div>
           <h2>Logo Design</h2>

@@ -11,7 +11,7 @@
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 2rem;
-    color: #0072ff;
+    color: #1a73e8;
 }
 
 .about_container {
@@ -30,11 +30,22 @@
 
 .about_right_site p {
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
+
+@media(max-width: 1200px){
+    .about{
+        width: 100%;
+    }
+    .about_right_site{
+        width: 400px;
+    }
+}
+
 
 @media screen and (max-width: 858px) {
     .about {
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     .about_container {
@@ -46,5 +57,6 @@
     .about_right_site {
         width: 90vw;
         text-align: center;
+        margin-top: 50px;
     }
 }

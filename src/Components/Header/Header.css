@@ -1,4 +1,3 @@
-
 .navbar{
     color: #000;
     height: 75px;
@@ -11,7 +10,7 @@
     z-index: 1;
 }
 .navbar_bg{
-    background: #011935;
+    background: #1a73e8;
     transition: .8s;
 }
 .logo{
@@ -22,19 +21,20 @@
     display: flex;
     gap: 2.5rem;
 }
-button{
+nav button{
     position: relative;
     font-size: 1rem;
     cursor: pointer;
     color: #fff;
     background: none;
     border: none;
+    font-family: 'Poppins', sans-serif;
 }
 
-button:not(.active)::before{
+nav button:not(.active)::before{
     content: '';
     position: absolute;
-    background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+    background: #fff;
     width: 100%;
     height: 2px;
     left: 0;
@@ -51,7 +51,7 @@ button.active::before{
     position: absolute;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+    background: #fff;
     bottom: -5px;
     left: 0;
 }
@@ -186,6 +186,9 @@ button.active::before{
         padding: 2rem 0.25rem 4rem;
     }
 }
+.light_dark_mode{
+    margin-bottom: 25px;
+}
 
 .label-1{
     width: 65px;
@@ -226,3 +229,9 @@ button.active::before{
 label:active::after{
     width: 35px;
 } 
+
+@media(max-width: 700px) {
+    .light_dark_mode {
+        margin: auto;
+    }
+}

@@ -10,6 +10,9 @@ import Skills from './Components/Skills/Skills';
 import Summary from './Components/Summary/Summary';
 import Footer from './Components/Footer/Footer';
 import { createContext, useState } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 export const themeContext = createContext(null);
 
@@ -20,6 +23,10 @@ function App() {
   const toggleTheme = () =>{
     setTheme((curr) => (curr == 'dark' ? 'light' : 'dark'));
   };
+
+  useEffect(()=>{
+    AOS.init();
+  },[]);
 
   return (
     <div>

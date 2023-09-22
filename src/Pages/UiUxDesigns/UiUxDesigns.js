@@ -10,13 +10,13 @@ const UiUxDesigns = () => {
         <div className='all_web_designs'>
             <h2 className='all_web_designs_titel'>UI/UX Designs</h2>
             <div className='container'>
-                <div className='box box5'>
+                <div data-aos="fade-up" className='box box5'>
                     <div className='ws_btn22'>
                         <a href='https://assurement-12.web.app' alt=''>Live Demo</a>
                         <a>GitHub</a>
                     </div>
                 </div>
-                <div className='box box6'>
+                <div data-aos="fade-up" className='box box6'>
                     <div className='ws_btn22'>
                         <a href='https://assurement-12.web.app' alt=''>Live Demo</a>
                         <a>GitHub</a>

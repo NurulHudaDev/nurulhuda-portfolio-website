@@ -27,7 +27,7 @@
     height: 100%;
     border-radius: 50px;
     position: absolute;
-    background: linear-gradient(90deg, #0072ff 60%, #02c4eb 100%);
+    background: linear-gradient(90deg, #02c4eb 0%, #0072ff 100%);
     transition: 1s all;
 }
 
@@ -76,13 +76,12 @@
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 2rem;
-    color: #0072ff;
+    color: #1a73e8;
 }
 
 .skills88888888888 {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -96,6 +95,7 @@
     gap: 20px;
     font-size: 16px;
     font-weight: 800;
+    font-family: 'Poppins', sans-serif;
 }
 
 .progress_btn {
@@ -110,7 +110,8 @@
 @media screen and (max-width: 858px) {
     .skills1 {
         height: auto;
-        margin-top: 100px;
+        margin-top: 0;
+        margin-bottom: 100px;
     }
 
     .skills88888888888 {

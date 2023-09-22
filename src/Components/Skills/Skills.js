@@ -92,56 +92,7 @@ const Skills = () => {
           <div className='experience_items'>
             <div className='experience_item'>
               <div className='experience_info'>
-                <p>HTML</p>
-                <p>90%</p>
-              </div>
-              <div className='progress_line' data-percent='90%'>
-                <span style={{ width: '90%' }}></span>
-              </div>
-            </div>
-
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>CSS</p>
-                <p>80%</p>
-              </div>
-              <div className='progress_line' data-percent='80%'>
-                <span style={{ width: '80%' }}></span>
-              </div>
-            </div>
-
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>Bootstrap</p>
-                <p>70%</p>
-              </div>
-              <div className='progress_line' data-percent='70%'>
-                <span style={{ width: '70%' }}></span>
-              </div>
-            </div>
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>Tailwind CSS</p>
-                <p>80%</p>
-              </div>
-              <div className='progress_line' data-percent='80%'>
-                <span style={{ width: '80%' }}></span>
-              </div>
-            </div>
-
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>React JS</p>
-                <p>80%</p>
-              </div>
-              <div className='progress_line' data-percent='80%'>
-                <span style={{ width: '80%' }}></span>
-              </div>
-            </div>
-
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>Firebase</p>
+                <p>Node JS</p>
                 <p>40%</p>
               </div>
               <div className='progress_line' data-percent='40%'>
@@ -149,6 +100,15 @@ const Skills = () => {
               </div>
             </div>
 
+            <div className='experience_item'>
+              <div className='experience_info'>
+                <p>MongoDB</p>
+                <p>60%</p>
+              </div>
+              <div className='progress_line' data-percent='60%'>
+                <span style={{ width: '60%' }}></span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -166,7 +126,7 @@ const Skills = () => {
           <div className='experience_items'>
             <div className='experience_item'>
               <div className='experience_info'>
-                <p>HTML</p>
+                <p>Logo Design</p>
                 <p>90%</p>
               </div>
               <div className='progress_line' data-percent='90%'>
@@ -176,7 +136,7 @@ const Skills = () => {
 
             <div className='experience_item'>
               <div className='experience_info'>
-                <p>CSS</p>
+                <p>UI/UX Design</p>
                 <p>80%</p>
               </div>
               <div className='progress_line' data-percent='80%'>
@@ -186,7 +146,7 @@ const Skills = () => {
 
             <div className='experience_item'>
               <div className='experience_info'>
-                <p>Bootstrap</p>
+                <p>Business Card</p>
                 <p>70%</p>
               </div>
               <div className='progress_line' data-percent='70%'>
@@ -195,34 +155,23 @@ const Skills = () => {
             </div>
             <div className='experience_item'>
               <div className='experience_info'>
-                <p>Tailwind CSS</p>
-                <p>80%</p>
+                <p>Flyer Design</p>
+                <p>70%</p>
               </div>
-              <div className='progress_line' data-percent='80%'>
-                <span style={{ width: '80%' }}></span>
-              </div>
-            </div>
-
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>React JS</p>
-                <p>80%</p>
-              </div>
-              <div className='progress_line' data-percent='80%'>
-                <span style={{ width: '80%' }}></span>
+              <div className='progress_line' data-percent='70%'>
+                <span style={{ width: '70%' }}></span>
               </div>
             </div>
 
             <div className='experience_item'>
               <div className='experience_info'>
-                <p>Firebase</p>
-                <p>40%</p>
+                <p>Social Media Kit</p>
+                <p>60%</p>
               </div>
-              <div className='progress_line' data-percent='40%'>
-                <span style={{ width: '40%' }}></span>
+              <div className='progress_line' data-percent='60%'>
+                <span style={{ width: '60%' }}></span>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -236,7 +185,7 @@ const Skills = () => {
     <div ref={skillsRef} id='skillsSection' className='skills1'>
       <h1>Skills</h1>
       <div className='skills88888888888'>
-        <div class="course-col22">
+        <div data-aos="fade-up" class="course-col22">
           <div className='skills_title'>
             <h2 className='skills_progress22'>Front-End Development</h2>
             <div className='progress_btn'>
@@ -246,7 +195,7 @@ const Skills = () => {
           </div>
           {showModel1 && <Progress1 />}
         </div>
-        <div class="course-col22">
+        <div data-aos="fade-up" class="course-col22">
           <div className='skills_title'>
             <h2 className='skills_progress22'>Back-End Development</h2>
             <div className='progress_btn'>
@@ -256,7 +205,7 @@ const Skills = () => {
           </div>
           {showModel2 && <Progress2 />}
         </div>
-        <div class="course-col22">
+        <div data-aos="fade-up" class="course-col22">
           <div className='skills_title'>
             <h2 className='skills_progress22'>Graphics Design</h2>
             <div className='progress_btn'>

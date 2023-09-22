@@ -60,7 +60,7 @@ const Header = (props) => {
         <button className='nav-btn nav-close-btn' onClick={() => showMenu(!Toggle)}>
           <FaTimes />
         </button>
-        <div>
+        <div className='light_dark_mode'>
           <input className='darkmode-toggle_input' onChange={toggleTheme} type="checkbox" id="darkmode-toggle" />
           <label className='label-1' for="darkmode-toggle"></label>
         </div>

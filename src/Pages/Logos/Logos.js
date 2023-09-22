@@ -20,7 +20,7 @@ const Logos = (props) => {
 
         <div className='logos'>
             <div className='container1'>
-                <div className='box22 box44'>
+                <div data-aos="fade-up" className='box22 box44'>
                     <img src={props.logo.logo} alt='' />
                     <div className="modal">
                        <div className="modal_btn">

@@ -8,7 +8,7 @@ const Summary = () => {
         <div className='summary-banner'>
             <div className='banner_overlay'>
                 <Row className='row_summary'>
-                            <Col className='col_summary'>
+                            <Col data-aos="fade-up" className='col_summary'>
                                 <h2 className='counter'>
                                     <CountUp start={0} end={28}>
                                         {({ countUpRef, start }) => (
@@ -23,7 +23,7 @@ const Summary = () => {
                                     <hr className='bg-white mt-4' />
                                 </div>
                             </Col>
-                            <Col className='col_summary'>
+                            <Col data-aos="fade-up" className='col_summary'>
                                 <h2 className='counter'>
                                     <CountUp start={0} end={2}>
                                         {({ countUpRef, start }) => (
@@ -38,7 +38,7 @@ const Summary = () => {
                                 <hr className='bg-white mt-4' />
                                 </div>
                             </Col>
-                            <Col className='col_summary'>
+                            <Col data-aos="fade-up" className='col_summary'>
                                 <h2 className='counter'>
                                     <CountUp start={0} end={205}>
                                         {({ countUpRef, start }) => (
