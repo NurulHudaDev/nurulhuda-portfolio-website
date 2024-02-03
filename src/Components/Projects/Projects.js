@@ -15,12 +15,12 @@ const Projects = () => {
     <div className='projects' ref={projectsRef} id='projectsSection'>
       <h1>Projects</h1>
       <AllProjectLink></AllProjectLink>
-    <Routes>
+    {/* <Routes>
         <Route path='/all_projects' element={<AllProject />}></Route>
         <Route path='/full_stack_websites' element={<Websites />}></Route>
         <Route path='/ui_ux_designs' element={<UiUxDesigns />}></Route>
         <Route path='/logo_designs' element={<AllLogos />}></Route>
-      </Routes>
+      </Routes> */}
     </div>
   );
 };

@@ -1,33 +1,33 @@
-import React, { useEffect, useState } from "react";
-import './AllLogos.css';
-import Logos from "../Logos/Logos";
+// import React, { useEffect, useState } from "react";
+// import './AllLogos.css';
+// import Logos from "../Logos/Logos";
 
-const AllLogos = (props) => {
+// const AllLogos = (props) => {
 
-    const {setCardCount} = props;
+//     const {setCardCount} = props;
 
-    const [logo, setLogos] = useState([]);
+//     const [logo, setLogos] = useState([]);
 
-    useEffect(() => {
-        fetch('Logos.json')
-            .then(res => res.json())
-            .then(data => setLogos(data))
-    }, [logo]);
+//     useEffect(() => {
+//         fetch('Logos.json')
+//             .then(res => res.json())
+//             .then(data => setLogos(data))
+//     }, [logo]);
 
-    return (
-        <section>
-            <div className="all_logos">
-            <h2 className="all_logos_titel">Logos</h2>
-                <div className="all_logos_col">
-                {
-                    logo.map((pd) => (
-                        <Logos setCardCount={setCardCount} key={pd.id} logo={pd}></Logos>
-                    ))
-                }
-                </div>
-            </div>
-        </section>
-    );
-};
+//     return (
+//         <section>
+//             <div className="all_logos">
+//             <h2 className="all_logos_titel">Logos</h2>
+//                 <div className="all_logos_col">
+//                 {
+//                     logo.map((pd) => (
+//                         <Logos setCardCount={setCardCount} key={pd.id} logo={pd}></Logos>
+//                     ))
+//                 }
+//                 </div>
+//             </div>
+//         </section>
+//     );
+// };
 
-export default AllLogos;
+// export default AllLogos;
