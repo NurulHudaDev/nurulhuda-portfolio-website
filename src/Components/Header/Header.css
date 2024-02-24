@@ -148,7 +148,7 @@ button.active::before{
     }
     .nav-links{
         position: fixed;
-        bottom: -100%;
+        bottom: -80%;
         left: 0;
         width: 100%;
         background: #312b2b;
@@ -183,7 +183,11 @@ button.active::before{
     }
 }
 @media (max-width: 350px){
+    .navbar{
+        width: 100%;
+    }
     .nav-links{
+        width: 80%;
         padding: 2rem 0.25rem 4rem;
     }
 }

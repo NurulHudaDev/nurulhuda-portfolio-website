@@ -73,7 +73,7 @@
 @media(max-width: 700px) {
     .services{
         height: auto;
-        margin-top: 200px;
+        margin-top: 300px;
     }
     .row {
         flex-direction: column;
