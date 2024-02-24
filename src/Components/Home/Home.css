@@ -88,6 +88,9 @@
     .banner {
         width: 100%;
     }
+    .banner_overlay{
+        width: 100%;
+    }
 
     .banner_left_site {
         width: 60%;
