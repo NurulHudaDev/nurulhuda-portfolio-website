@@ -6,7 +6,10 @@
         "category": "web_site",
         "live_link": "https://assurement-12.web.app",
         "client_side_code_link": "https://github.com/NurulHudaDev/laptop-parts-client-side.git",
-        "Server_side_code_link": "https://github.com/NurulHudaDev/laptop-parts-server-side.git"
+        "Server_side_code_link": "https://github.com/NurulHudaDev/laptop-parts-server-side.git",
+        "live_link1": "live deom",
+        "client_side_code_link2": "code",
+        "Server_side_code_link3": "code"
     },
     {
         "_id": 2,
@@ -52,62 +55,50 @@
 
     {
         "_id": 7,
-        "img": "https://i.ibb.co/Z1ZG1B2/C-219.jpg",
+        "img": "https://i.ibb.co.com/BgPyT3b/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
         
     },
     {
         "_id": 8,
-        "img": "https://i.ibb.co/yNqSg1d/C-213.jpg",
+        "img": "https://i.ibb.co.com/9c5Vgz1/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 9,
-        "img": "https://i.ibb.co/0Q5DWrX/C-209.jpg",
+        "img": "https://i.ibb.co.com/x8Sc4WM/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 10,
-        "img": "https://i.ibb.co/0rzs5s9/C-180.jpg",
+        "img": "https://i.ibb.co.com/jJzq6MK/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 11,
-        "img": "https://i.ibb.co/mD5WbDp/C-167-2.jpg",
+        "img": "https://i.ibb.co.com/WB9wHHT/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 12,
-        "img": "https://i.ibb.co/kqdtPPX/C-168-2.jpg",
+        "img": "https://i.ibb.co.com/5GSQ29S/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 13,
-        "img": "https://i.ibb.co/gmL2ytp/151.jpg",
+        "img": "https://i.ibb.co.com/y5Vwmfm/C-266.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 14,
-        "img": "https://i.ibb.co/BLtS1hb/C-164.jpg",
-        "name": "logo design",
-        "category": "logo_design"
-    },
-    {
-        "_id": 15,
-        "img": "https://i.ibb.co/YRRP0V2/27.jpg",
-        "name": "logo design",
-        "category": "logo_design"
-    },
-    {
-        "_id": 16,
-        "img": "https://i.ibb.co/Ltgvxby/104.jpg",
+        "img": "https://i.ibb.co.com/HpBd9W3/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     }

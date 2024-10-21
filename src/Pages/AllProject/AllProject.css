@@ -226,35 +226,26 @@
     }
 } */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
 
 :root {
-    /* Colors */
     --brand-color: hsl(46, 100%, 50%);
     --black: hsl(0, 0%, 0%);
     --white: hsl(0, 0%, 100%);
-    /* Fonts */
     --font-title: "Montserrat", sans-serif;
     --font-text: "Lato", sans-serif;
 }
 
-/* RESET */
-
-/* Box sizing rules */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
-/* Remove default margin */
 body,
 h2,
 p {
     margin: 0;
 }
-
-/* GLOBAL STYLES */
 
 .card__title {
     font-size: 2.25rem;
@@ -266,8 +257,6 @@ p {
 .flow>*+* {
     margin-top: var(--flow-space, 1em);
 }
-
-/* CARD COMPONENT */
 
 .container{
     width: 100%;
@@ -318,7 +307,6 @@ p {
     width: fit-content;
     width: -moz-fit-content;
     font-size: 20px;
-    /* Prefijo necesario para Firefox  */
 }
 
 .card__title::after {
@@ -340,7 +328,6 @@ p {
     padding: 0.75em 1.6em;
     width: fit-content;
     width: -moz-fit-content;
-    /* Prefijo necesario para Firefox  */
     font-variant: small-caps;
     font-weight: bold;
     border-radius: 0.45em;
@@ -431,4 +418,4 @@ p {
         margin: auto;
         margin-top: 100px;
     }
-} 
+}  */

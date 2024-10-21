@@ -126,7 +126,7 @@ const Skills = () => {
           <div className='experience_items'>
             <div className='experience_item'>
               <div className='experience_info'>
-                <p>Logo Design</p>
+                <p>Adobe Illustrator</p>
                 <p>90%</p>
               </div>
               <div className='progress_line' data-percent='90%'>
@@ -136,7 +136,7 @@ const Skills = () => {
 
             <div className='experience_item'>
               <div className='experience_info'>
-                <p>UI/UX Design</p>
+                <p>Adobe Photoshop</p>
                 <p>80%</p>
               </div>
               <div className='progress_line' data-percent='80%'>
@@ -144,34 +144,6 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>Business Card</p>
-                <p>70%</p>
-              </div>
-              <div className='progress_line' data-percent='70%'>
-                <span style={{ width: '70%' }}></span>
-              </div>
-            </div>
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>Flyer Design</p>
-                <p>70%</p>
-              </div>
-              <div className='progress_line' data-percent='70%'>
-                <span style={{ width: '70%' }}></span>
-              </div>
-            </div>
-
-            <div className='experience_item'>
-              <div className='experience_info'>
-                <p>Social Media Kit</p>
-                <p>60%</p>
-              </div>
-              <div className='progress_line' data-percent='60%'>
-                <span style={{ width: '60%' }}></span>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -187,7 +159,7 @@ const Skills = () => {
       <div className='skills88888888888'>
         <div data-aos="fade-up" class="course-col22">
           <div className='skills_title'>
-            <h2 className='skills_progress22'>Front-End Development</h2>
+            <h2 className='skills_progress22' onClick={() => setShowModel1(true)}>Front-End Development</h2>
             <div className='progress_btn'>
               <a className='model_btn' onClick={() => setShowModel1(true)}><FaAngleDown /></a>
               <a className='model_btn' onClick={() => setShowModel1(false)}><FaAngleUp /></a>
@@ -197,7 +169,7 @@ const Skills = () => {
         </div>
         <div data-aos="fade-up" class="course-col22">
           <div className='skills_title'>
-            <h2 className='skills_progress22'>Back-End Development</h2>
+            <h2 className='skills_progress22' onClick={() => setShowModel2(true)}>Back-End Development</h2>
             <div className='progress_btn'>
               <a className='model_btn' onClick={() => setShowModel2(true)}><FaAngleDown /></a>
               <a className='model_btn' onClick={() => setShowModel2(false)}><FaAngleUp /></a>
@@ -207,7 +179,7 @@ const Skills = () => {
         </div>
         <div data-aos="fade-up" class="course-col22">
           <div className='skills_title'>
-            <h2 className='skills_progress22'>Graphics Design</h2>
+            <h2 className='skills_progress22' onClick={() => setShowModel3(true)}>Graphics Design</h2>
             <div className='progress_btn'>
               <a className='model_btn' onClick={() => setShowModel3(true)}><FaAngleDown /></a>
               <a className='model_btn' onClick={() => setShowModel3(false)}><FaAngleUp /></a>

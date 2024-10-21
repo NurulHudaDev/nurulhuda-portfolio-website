@@ -17,7 +17,7 @@ const Home = () => {
           <div data-aos="zoom-out-right" className='banner_left_site'>
             <div>
               <h1 className='name'>I'M NURUL HUDA</h1>
-              <h2 className='title'>Front-end web developer</h2>
+              <h2 className='title'>Front-end web developer & <br /> Graphic Designer</h2>
               <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <div className='resume_cv_btn'>
                 <button className='resume_btn'>Resume</button>

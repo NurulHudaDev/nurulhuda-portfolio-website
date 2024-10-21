@@ -1,7 +1,8 @@
 import React from 'react';
 import './Services.css';
 import { useNav } from '../Hooks/useNav';
-import { FaCode, FaPager, FaPenNib } from "react-icons/fa6";
+import { FaCode, FaPenNib } from "react-icons/fa6";
+import { MdOutlineBrandingWatermark } from "react-icons/md";
 
 const Services = () => {
 
@@ -23,8 +24,8 @@ const Services = () => {
         </div>
         <div data-aos="fade-up" class="course-col">
         <div className='icon-title'>
-          <div className='icon'><FaPager /></div>
-          <h2>UI/UX Design</h2>
+          <div className='icon'><FaPenNib /></div>
+          <h2>Logo Design</h2>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -33,8 +34,8 @@ const Services = () => {
         </div>
         <div data-aos="fade-up" class="course-col">
         <div className='icon-title'>
-          <div className='icon'><FaPenNib /></div>
-          <h2>Logo Design</h2>
+          <div className='icon'><MdOutlineBrandingWatermark /></div>
+          <h2>Branding Design</h2>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
