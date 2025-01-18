@@ -55,51 +55,116 @@
 
     {
         "_id": 7,
-        "img": "https://i.ibb.co.com/BgPyT3b/Logo-Design.jpg",
+        "img": "https://i.ibb.co.com/WB9wHHT/Logo-Design.jpg",
+        "live_link": "https://www.behance.net/gallery/212527675/Logo-Logo-Design",
         "name": "logo design",
         "category": "logo_design"
-        
     },
     {
         "_id": 8,
         "img": "https://i.ibb.co.com/9c5Vgz1/Logo-Design.jpg",
+        "live_link": "https://www.behance.net/gallery/212525149/Logo-Design-Modern-logo-design",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 9,
-        "img": "https://i.ibb.co.com/x8Sc4WM/Logo-Design.jpg",
+        "img": "https://i.ibb.co.com/BgPyT3b/Logo-Design.jpg",
+        "live_link": "https://www.behance.net/gallery/212428021/E-Commerce-logo-design",
         "name": "logo design",
         "category": "logo_design"
+        
     },
     {
         "_id": 10,
+        "img": "https://i.ibb.co.com/sRgHpYh/C-263-22.jpg",
+        "live_link": "https://www.behance.net/gallery/212518855/Logo-Design-Coffee-shop-logo-design",
+        "name": "logo design",
+        "category": "logo_design"
+        
+    },
+    {
+        "_id": 11,
         "img": "https://i.ibb.co.com/jJzq6MK/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
-        "_id": 11,
-        "img": "https://i.ibb.co.com/WB9wHHT/Logo-Design.jpg",
-        "name": "logo design",
-        "category": "logo_design"
-    },
-    {
         "_id": 12,
-        "img": "https://i.ibb.co.com/5GSQ29S/Logo-Design.jpg",
+        "img": "https://i.ibb.co.com/x8Sc4WM/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 13,
-        "img": "https://i.ibb.co.com/y5Vwmfm/C-266.jpg",
+        "img": "https://i.ibb.co.com/5GSQ29S/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
     },
     {
         "_id": 14,
+        "img": "https://i.ibb.co.com/y5Vwmfm/C-266.jpg",
+        "name": "logo design",
+        "category": "logo_design"
+    },
+    {
+        "_id": 15,
         "img": "https://i.ibb.co.com/HpBd9W3/Logo-Design.jpg",
         "name": "logo design",
         "category": "logo_design"
+    },
+    {
+        "_id": 16,
+        "img": "https://i.ibb.co.com/4pvgYjb/Social-media-post-design-1.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
+    },
+    {
+        "_id": 17,
+        "img": "https://i.ibb.co.com/vsR3PYD/Social-media-post-design-2.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
+    },
+    {
+        "_id": 18,
+        "img": "https://i.ibb.co.com/1KD7qy0/Social-media-post-design-3.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
+    },
+    {
+        "_id": 19,
+        "img": "https://i.ibb.co.com/7v98ksK/Social-media-post-design-4.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
+    },
+    {
+        "_id": 20,
+        "img": "https://i.ibb.co.com/dWv0PzT/social-media-post-design-5.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
+    },
+    {
+        "_id": 21,
+        "img": "https://i.ibb.co.com/N3gSJ83/social-media-post-design-6.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
+    },
+    {
+        "_id": 22,
+        "img": "https://i.ibb.co.com/QDxZ9Wp/social-media-post-design-7.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
+    },
+    {
+        "_id": 23,
+        "img": "https://i.ibb.co.com/vqkF3G4/social-media-post-design-8.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
+    },
+    {
+        "_id": 24,
+        "img": "https://i.ibb.co.com/0CJdyS8/social-media-post-design-9.jpg",
+        "name": "social media post design",
+        "category": "social_media_post_design"
     }
     ]

@@ -43,8 +43,10 @@ const AllProjectLink = () => {
             <div className="all_projects_link">
                 <button className='btn' onClick={() => setProjects(AllProject)}>All Project</button>
                 <button className='btn' onClick={() => filterProjects('web_site')}>WebSite</button>
-                <button className='btn' onClick={() => filterProjects('ui_ux_design')}>UI/UX Design</button>
-                <button className='btn' onClick={() => filterProjects('logo_design')}>Logo Design</button>
+                <button className='btn' onClick={() => filterProjects('logo_design')}>Logo & Branding</button>
+                <button className='btn' onClick={() => filterProjects('ui_ux_design')}>UI/UX</button>
+                <button className='btn' onClick={() => filterProjects('logo_design')}>Business Card</button>
+                <button className='btn' onClick={() => filterProjects('social_media_post_design')}>Social Media Post</button>
             </div>
             <div className='card1'>
                 {
@@ -54,17 +56,15 @@ const AllProjectLink = () => {
                                 <img
                                     className="card__background"
                                     src={val.img}
-                                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
-                                    width="1920"
-                                    height="2193"
+                                    alt=""
                                 />
-                                <div className="card__content | flow">
-                                    <div className="card__content--container | flow">
+                                <div className="card__content">
+                                    <div className="card__content--container">
                                         <h2 className="card__title">{val.name}</h2>
                                     </div>
                                     <div className='btn1'>
-                                        <a href={val.live_link} className="card__button">live demo</a>
-                                        <a href={val.client_side_code_link} className="card__button">code link</a>
+                                        <a href={val.live_link} className="card__button">demo behance</a>
+                                        {/* <a href={val.client_side_code_link} className="card__button">code link</a> */}
                                     </div>
                                 </div>
                             </div>
